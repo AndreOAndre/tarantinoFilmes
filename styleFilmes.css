@@ -1,0 +1,119 @@
+body{
+background: #CE2928;
+font-family: 'Source Serif 4', sans-serif;
+color: #ffffff;
+}
+
+header{
+  background: #660908;
+  display:block;
+
+}
+
+.voltar{
+
+  display:inline-block;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  color: #ffffff;
+  background: #660908;
+  margin: 10px 10px;
+  border-radius: 05px;
+}
+
+button:hover{
+ transform: scale(1.2);
+ cursor: pointer;
+}
+
+.tituloHeader {
+  font-size: 100px;
+  display:block;
+  font-weight: bolder;
+  text-align: center;
+  padding:0px 0px 20px;
+}
+
+img{
+margin:10px auto;
+
+display:block;
+width: 85%;
+box-shadow: 10px 15px 15px #660908;
+}
+
+
+.nota{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0px;
+  text-shadow: 0.2em 0.2em 0.03em #660908;
+  font-weight: bold;
+}
+
+.nota a{
+  text-decoration: none;
+  color: white;
+}
+
+.sinopse{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px 0px 0px ;
+}
+
+.sinopseConteudo{
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 80px 0px 80px;
+}
+
+main div{
+  text-align: center;
+}
+
+div p{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 50px 0px 10px ;
+}
+
+main a{
+margin: 0px 43%;
+}
+
+main button{
+  display:inline-block;
+  width: 160px;
+  height: 60px;
+  color: #ffffff;
+  background: #1b86ee;
+  margin: 10px 10px;
+  border-radius: 05px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background: #660908 ;
+}
+
+
+.copyright {
+  font-size: 15px;
+  margin: 20px 0 0;
+}
+
+.wpp{
+  padding: 30px 0px 0px;
+}
+
+.email{
+  padding: 5px 0px 0px;
+
+  
