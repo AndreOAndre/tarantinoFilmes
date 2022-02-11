@@ -12,19 +12,16 @@ header{
 
 .voltar{
   position: absolute;
-  top: -5px;
-  left: -5px;
-  width: 60px;
-  height: 30px;
-  color: #ffffff;
-  background: #660908;
-  margin: 10px 10px;
-  border-radius: 05px;
+  top: 20px;
+  left: 30px;
+  color: #CE2928;
+  text-decoration: none;
 }
 
-button:hover{
- transform: scale(1.2);
+.voltar:hover{
+ transform: scale(1.1);
  cursor: pointer;
+ text-shadow: 0px 5px 1.5px black;
 }
 
 .tituloHeader {
@@ -58,7 +55,6 @@ box-shadow: 10px 15px 15px #660908;
 .sinopse{
   text-align: center;
   font-size: 30px;
-  text-decoration: underline;
   font-weight: bold;
   padding: 20px 0px 0px ;
 }
@@ -72,7 +68,6 @@ box-shadow: 10px 15px 15px #660908;
 main div p{
   text-align: center;
   font-size: 30px;
-  text-decoration: underline;
   font-weight: bold;
   padding: 50px 0px 25px ;
 }
@@ -85,20 +80,58 @@ main a{
 margin: 0px 43%;
 }
 
+.netflix{
+  display:inline-block;
+  width: 160px;
+  height: 60px;
+  color: red;
+  background: black;
+  margin: 25px 10px;
+  border-radius: 05px;
+  border:none;
+}
+
+.netflix:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.hbo{
+  display:inline-block;
+  width: 160px;
+  height: 60px;
+  color: white;
+  background: #663399;
+  margin: 25px 10px;
+  border-radius: 05px;
+  border:none;
+}
+
+.hbo:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 main button{
   display:inline-block;
   width: 160px;
   height: 60px;
-  color: #ffffff;
-  background: #1b86ee;
+  color: white;
+  background: #00A8E1;
   margin: 25px 10px;
   border-radius: 05px;
+  border:none;
+}
+
+  main button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 footer {
   text-align: center;
   padding: 40px 0;
-  background: #660908 ;
+  background: #660908;
 }
 
 
@@ -115,7 +148,3 @@ footer {
 .email{
   padding: 5px 0px 0px;
   font-size: 15px;
-
-
-
-  

@@ -1,3 +1,8 @@
+@font-face{
+   font-family: tarantino;
+   src: url(Pulp Fiction M54.ttf);
+}
+
 body{
 background: #CE2928;
 font-family: 'Source Serif 4', sans-serif;
@@ -11,20 +16,17 @@ header{
 
 }
 
-nav {
+nav p {
+  font-family: tarantino;
   text-align: center;
-  font-size: 20px;
+  font-size: 80px;
+  font-weight: bolder;
 
-}
-
-nav p{
-  display: block;
-   margin: 5px;
-  margin: 0px 0px 5px 0px ;
 }
 
 #nomeTarantino{
-  font-size: 40px;
+  font-family: tarantino;
+  font-size: 80px;
   font-weight: bolder;
 }
 
@@ -66,13 +68,17 @@ main p{
   padding: 1%;
 }
 
-.listaConteudo li:hover{
- transform: scale(1.1);
-}
 
 li img{
   border-radius: 10px;
+  width: 70%;
 }
+
+li img:hover{
+   transform: scale(1.1);
+  box-shadow: 15px 15px 15px 0px #000000;
+}
+
 
 button{
   display:inline-block;
